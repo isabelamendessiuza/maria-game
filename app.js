@@ -1,6 +1,4 @@
 
-
-
 while
 (chute != numeroSecreto) {
 
@@ -21,15 +19,8 @@ while
       alert(`Isso aí! Você descobriu o número secreto
 ${numeroSecreto}`);
 
-
- 
-
-
  
   } else {
-
-
- 
       if (chute > numeroSecreto) {
 
 
