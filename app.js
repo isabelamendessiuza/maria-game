@@ -1,27 +1,18 @@
 
-while
-(chute != numeroSecreto) {
+alert('Boas vindas ao numero secreto');
+let numeroSecreto = 6;
+console.log(numeroSecreto)
+let chute
 
+while(chute != numeroSecreto) {
+     chute = prompt('Escolha um número entre 1 e 10');
 
- 
-  chute = prompt('Escolha um número entre 1 e 10');
+     if (chute == numeroSecreto) {
+     alert(`Isso aí! Você descobriu o número secreto
+            ${numeroSecreto}`);
 
-
- 
-  // se chute for igual ao número secreto
-
-
- 
-  if (chute == numeroSecreto) {
-
-
- 
-      alert(`Isso aí! Você descobriu o número secreto
-${numeroSecreto}`);
-
- 
-  } else {
-      if (chute > numeroSecreto) {
+        } else {
+ if (chute > numeroSecreto) {
 
 
  
